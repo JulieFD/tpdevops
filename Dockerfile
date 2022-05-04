@@ -1,4 +1,4 @@
 FROM nginx:1.21.6-alpine
 
-RUN sed -i 's/nginx/Second test de modification/g' /usr/share/nginx/html/index.html
+RUN sed -i 's/nginx/youhooooo/g' docker
 EXPOSE 80
